@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo video{
+    width: 60%;
+    border: 3px solid white;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: plum;
+}
+
+.rightNav{
+    padding: 0 23px;
+    width: 50%;
+    text-align: right;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid palevioletred;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/backimage - Copy.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.FirstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 70%;
+}
+
+.fhalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shalf{
+    width: 30%;
+}
+
+.shalf img{
+    width: 140%;
+    border: 2px solid white;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 40px;
+}
+
+.text-small{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.btn{
+    padding: 8px 15px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    padding: 3px 10px;
+    vertical-align: 6px 10px;
+}
+
+.btn-dark{
+    color: black;
+    border: 2px solid black;
+}
+.section{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+
+.Left{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 0 20px;
+}
+
+.section img{
+    width: 200px;
+    margin: 2px 2px;
+}
+
+.sectionTag{
+    padding: 16px 0;
+}
+
+.bg-img-form{
+    background-image: url(../img/perfumebg.jpg); 
+    background-size: cover;
+}
+.text-center{
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    font-size: 35px;
+}
+
+.form{
+    max-width: 344px;
+    margin-left: 10%;
+}
+.form input{
+    margin-bottom: -1px;
+    margin-top: 6px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid plum;
+    border-radius: 5px;
+
+}
+
+.text-footer{
+    text-align: center;
+    padding: 20px; 
+    color: white;
+}
+
+.contactSec video{
+    width: 40%;
+    height: 50%;
+}
+.email{
+    background-color: coral;
+    width: 30%;
+    padding: 20px 20px;
+    margin: 10px 20px;
+}
+
+.contactUs img{
+    width: 20%;
+    border: 1px solid white;
+    border-radius: 117px;
+}
+
+.phoneNo{
+    background-color: rgb(230, 122, 230);
+    width: 30%;
+    padding: 20px 20px;
+    margin: 10px 20px;
+}
+
+.insta{
+    background-color: rgb(76, 230, 70);
+    width: 30%;
+    padding: 20px 20px;
+    margin: 10px 20px;
+}
+
+.contactUs{
+    display: flex;
+    height: 70%;
+    
+}
+
+.background-c{
+    background: rgba(0, 0, 0, 0.8) url('../img/bgpretty.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.formbg{
+    background-image: url('../img/form66.jpg');
+    background-size: cover;
+}
+
+.cform form{
+     /* margin-top: 10px; */
+    max-width: 344px;
+     margin-left: 60%; 
+    /* margin-bottom: 30%; */
+    width: 100%;
+    font-size: 19px;
+    color: crimson;
+    font-weight: bold;
+
+}
+
+.section3{
+    display: flex;
+}
+
+.text-big1{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.text-small1{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-left: 25px;
+}
+
+.text-big2{
+    font-size: 40px;
+    margin-left: 48px;
+}
+
+.text-small2{
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 23px;
+    text-align: justify;
+    margin-right: -8px;
+
+}
+
+
+.text-big3{
+    font-size: 40px;
+    margin-left: 98px;
+}
+
+.text-small3{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-left: 54px;
+    margin-right: -60px;
+}
+.contacthead{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+hr{
+    color: plum;
+}

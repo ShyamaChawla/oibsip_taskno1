@@ -1,0 +1,29 @@
+.formstyle{
+    
+    background: rgba(0, 0, 0, 0.7) url('../img/formbg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+} 
+.formstyle form{
+    
+    color: aliceblue;
+    margin: 8% 40%;
+    padding: 2% 0;
+}
+.head{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.head p{
+    padding-top: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ptag{
+    font-size: 20px;
+}
